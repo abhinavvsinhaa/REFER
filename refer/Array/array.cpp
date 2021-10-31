@@ -1,4 +1,5 @@
 #include "array.h"
+
 Array::Array()
 {
     n = 0;

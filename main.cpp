@@ -6,8 +6,5 @@ int main()
 {
     Array s;
     cout << s.getN();
-    // new comment
-    int n;
-    cin >> n;
     return 0;
 }
