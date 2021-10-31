@@ -1,4 +1,5 @@
-#include "array.h"
+#include "Array.h"
+
 Array::Array()
 {
     n = 0;
@@ -6,7 +7,7 @@ Array::Array()
 Array::~Array()
 {
 }
-int Array::getN()
+T Array::getN()
 {
     return n;
 }

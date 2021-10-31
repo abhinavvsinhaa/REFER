@@ -4,7 +4,6 @@ using namespace std;
 
 int main()
 {
-    Array s;
-    cout << s.getN();
+    Array<int> s;
     return 0;
 }
