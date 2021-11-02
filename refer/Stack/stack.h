@@ -1,14 +1,14 @@
-
 #include <iostream>
 #include <string>
 
 using namespace std;
-#define SIZE 5
+#define SIZE 50
 
-template <class T> class Stack {
+template <class T>
+class Stack
+{
 
 public:
-
 	Stack();
 
 	void push(T k);
@@ -25,4 +25,3 @@ private:
 	int top;
 	T st[SIZE];
 };
-
