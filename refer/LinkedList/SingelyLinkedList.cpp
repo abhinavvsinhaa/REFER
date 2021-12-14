@@ -1,8 +1,7 @@
 #include <iostream>
-#include "./linkedlist.h"
+#include "SingelyLinkedList.h"
 
 int main()
 {
-    LinkedList<int> l;
     return 0;
 }

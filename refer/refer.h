@@ -1,2 +1,3 @@
-#include "Array/Array.h"
-#include "Array/Array.cpp"
+#include "Array/array.h"
+#include "Array/array.cpp"
+#include "LinkedList/SingelyLinkedList.h"
