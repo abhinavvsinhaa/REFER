@@ -1,80 +1,77 @@
-#include <iostream>
-#include "refer/refer.h"
+#include <bits/stdc++.h>
 using namespace std;
+#include "refer/refer.h"
 
 int main()
 {
-    /*
-     Array<int> s;
-     s.push_back(10);
-     s.push_back(100);
-     s.push_back(1000);
-     s.push_back(1000);
+    
+    //  Array<int> s;
+    //  s.push_back(10);
+    //  s.push_back(100);
+    //  s.push_back(1000);
+    //  s.push_back(1000);
 
-     for (int i = 0; i < s.size(); i++)
-         cout << s[i] << " ";
-     */
+    //  for (int i = 0; i < s.size(); i++)
+    //      cout << s[i] << " ";
+    
 
-    /*
-    BinaryTree<int> *root;
-    root = root->takeInputLevel();
+    
+    // BinaryTree<int> *root;
+    // root = root->takeInputLevel();
 
-    cout << "\nPrinting binarytree: " << endl;
-    root->printLevelWise(root);
+    // cout << "\nPrinting binarytree: " << endl;
+    // root->printLevelWise(root);
 
-    cout << "\nTotal nodes " << root->countNodes(root);
-    delete root;
-    */
+    // cout << "\nTotal nodes " << root->countNodes(root);
+    // delete root;
 
-    /*
-        BST b, *root = NULL;
-        root = b.insert(root, 80);
-        b.insert(root, 35);
-        b.insert(root, 60);
-        b.insert(root, 50);
-        b.insert(root, 90);
-        b.insert(root, 40);
-        b.insert(root, 85);
-        b.insert(root, 30);
-        b.insert(root, 70);
+    // BST b, *root = NULL;
+    // root = b.insert(root, 80);
+    // b.insert(root, 35);
+    // b.insert(root, 60);
+    // b.insert(root, 50);
+    // b.insert(root, 90);
+    // b.insert(root, 40);
+    // b.insert(root, 85);
+    // b.insert(root, 30);
+    // b.insert(root, 70);
 
-        cout << "Post Order traversal" << endl;
-        b.postOrder(root);
+    // cout << "Post Order traversal" << endl;
+    // b.postOrder(root);
 
-        cout << "\nPre Order traversal" << endl;
-        b.preOrder(root);
+    // cout << "\nPre Order traversal" << endl;
+    // b.preOrder(root);
 
-        cout << "\nIn order traversal" << endl;
-        b.inOrder(root);
-     */
+    // cout << "\nIn order traversal" << endl;
+    // b.inOrder(root);
 
-    /*
-    graph g;
-    int e;
-    cin >> e;
-    for (int i = 0; i < e; i++)
-    {
-        int f, s;
-        cin >> f >> s;
-        g.addEdge(f, s);
-    }
+    
+    // graph g;
+    // int e;
+    // cin >> e;
+    // for (int i = 0; i < e; i++)
+    // {
+    //     int f, s;
+    //     cin >> f >> s;
+    //     g.addEdge(f, s);
+    // }
 
-    g.adjacencyList();
-    cout << endl;
-    g.dfs();
-    cout << endl;
-    g.bfs();
-    */
+    // g.adjacencyList();
+    // cout << endl;
+    // g.dfs();
+    // cout << endl;
+    // g.bfs();
+    
 
-    /*
-       HashMap<int> m;
-       m.insert("abc", 1);
-       m.insert("def", 2);
-       m.insert("ghi", 3);
-       cout << "Size" << m.size() << endl;
-       cout << "Value" << m.getValue("def") << endl;
-       cout << m.removeKey("ghi");
-    */
+    
+    // HashMap<int> m;
+    // m.insert("abc", 1);
+    // m.insert("def", 2);
+    // m.insert("ghi", 3);
+    // cout << "Size" << m.size() << endl;
+    // cout << "Value" << m.getValue("def") << endl;
+    // cout << m.removeKey("ghi");
+    
 
     /*
        Stack<int> st;
