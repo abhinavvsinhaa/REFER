@@ -76,7 +76,8 @@ int main()
        cout << m.removeKey("ghi");
     */
 
-    /*    Stack<int> st;
+    /*
+       Stack<int> st;
        st.push(10);
        st.push(11);
        st.push(12);
@@ -91,9 +92,8 @@ int main()
        cout << endl; */
     // Array s;
     // cout << s.getN();
-    queue<int> x1;
+    /* queue<int> x1;
     x1.enqueue(1);
-    // create a queue of capacity 4
     queue<string> q(4);
 
     q.enqueue("a");
@@ -119,5 +119,6 @@ int main()
     {
         cout << "The queue is not empty\n";
     }
+    */
     return 0;
 }
