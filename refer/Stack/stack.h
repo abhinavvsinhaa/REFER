@@ -1,27 +1,65 @@
-#include <iostream>
-#include <string>
+#include<climits>
 
-using namespace std;
-#define SIZE 50
-
-template <class T>
-class Stack
-{
-
+template<typename T>
+class stackTemplate {
+	T* data;
+	int nextIndex;
+	int capacity;
 public:
-	Stack();
+	stackTemplate() {
+		data = new T[4];
+		nextIndex = 0;
+		capacity = 4;
+	}
 
-	void push(T k);
+	//insert element in the stack (push) 
+	void push(T value) {
+		if(nextIndex == capacity){
+			T *newData = new T[2*capacity];
+			
+			for(int i=0; i < capacity; i++) {
+				newData[i] = data[i];
+			}
 
-	T pop();
+			capacity*= 2;
+			delete [] data;
+			data = newData;
+			delete newData;
+		}
+		data[nextIndex] = value;
+		nextIndex++;
+	}
 
-	T topElement();
+	//delete elements in the stack (pop)
+	T pop() {
+		if(nextIndex==0) {
+			cout<<"Stack empty"<<endl;
+			return 0;
+		}
+		nextIndex--;
+		return data[nextIndex];
+	}
 
-	bool isFull();
+	//returns the no of elements(size) of stack
+	int size() {
+		return nextIndex;
+	} 
 
-	bool isEmpty();
+	//checks if the stack is empty or not
+	bool isEmpty() {
+		if(nextIndex==0) {
+			return true;
+		} else {
+			return false;
+		}
+	}
 
-private:
-	int top;
-	T st[SIZE];
+	//access the top most element 
+	T top() {
+		if(isEmpty()) {
+			cout<<"Stack empty"<<endl;
+			return 0;
+		}
+		return data[nextIndex-1];
+	}
 };

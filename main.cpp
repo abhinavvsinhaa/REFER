@@ -1,6 +1,6 @@
-#include <bits/stdc++.h>
-using namespace std;
+#include <iostream>
 #include "refer/refer.h"
+using namespace std;
 
 int main()
 {
@@ -15,7 +15,7 @@ int main()
     //      cout << s[i] << " ";
     
 
-    
+    // **Binary Tree**
     // BinaryTree<int> *root;
     // root = root->takeInputLevel();
 
@@ -25,6 +25,7 @@ int main()
     // cout << "\nTotal nodes " << root->countNodes(root);
     // delete root;
 
+    // **Binary Search tree**
     // BST b, *root = NULL;
     // root = b.insert(root, 80);
     // b.insert(root, 35);
@@ -45,7 +46,7 @@ int main()
     // cout << "\nIn order traversal" << endl;
     // b.inOrder(root);
 
-    
+    // **Graph**
     // graph g;
     // int e;
     // cin >> e;
@@ -63,7 +64,7 @@ int main()
     // g.bfs();
     
 
-    
+    // **HashMaps**
     // HashMap<int> m;
     // m.insert("abc", 1);
     // m.insert("def", 2);
@@ -73,20 +74,22 @@ int main()
     // cout << m.removeKey("ghi");
     
 
-    /*
-       Stack<int> st;
-       st.push(10);
-       st.push(11);
-       st.push(12);
-       st.push(13);
-       st.push(14);
+    
+    stackTemplate<int> st;
+    st.push(10);
+    st.push(11);
+    st.push(12);
+    st.push(13);
+    st.push(14);
 
-       while (!st.isEmpty())
-       {
-           cout << st.topElement() << " ";
-           st.pop();
-       }
-       cout << endl; */
+    while (!st.isEmpty())
+    {
+        cout << st.top() << " ";
+        st.pop();
+    }
+    cout << endl;
+
+
     // Array s;
     // cout << s.getN();
     /* queue<int> x1;
