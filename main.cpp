@@ -74,20 +74,32 @@ int main()
     // cout << m.removeKey("ghi");
     
 
-    
-    stackTemplate<int> st;
-    st.push(10);
-    st.push(11);
-    st.push(12);
-    st.push(13);
-    st.push(14);
+    // Stack
+    // stackTemplate<int> st;
+    // st.push(10);
+    // st.push(11);
+    // st.push(12);
+    // st.push(13);
+    // st.push(14);
 
-    while (!st.isEmpty())
-    {
-        cout << st.top() << " ";
-        st.pop();
-    }
+    // while (!st.isEmpty())
+    // {
+    //     cout << st.top() << " ";
+    //     st.pop();
+    // }
+    // cout << endl;
+
+    // queue
+    Queue<int> q;
+    q.enqueue(10);
+    q.enqueue(11);
+    q.enqueue(12);
+    q.enqueue(13);
+    q.enqueue(14);
+
+    q.print();
     cout << endl;
+    
 
 
     // Array s;
