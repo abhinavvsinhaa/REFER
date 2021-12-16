@@ -79,7 +79,7 @@ public:
         print(root->right);
     }
 
-    //print level wise
+    // print level wise
     void printLevelWise(BinaryTree<int> *root)
     {
         queue<BinaryTree<int> *> q;
@@ -105,7 +105,7 @@ public:
         }
     }
 
-    //recursive print level wise
+    // recursive print level wise
     void printLevelWiseRecursive(BinaryTree<int> *root)
     {
         if (root == NULL)
