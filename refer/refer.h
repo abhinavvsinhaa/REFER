@@ -8,6 +8,8 @@
 #include "HashMaps/hash.h"
 #include "Queue/queue.h"
 #include "Stack/stack.h"
+#include "Queue/queue.cpp"
+#include "Stack/stack.cpp"
 #include "BST/bst.cpp"
 #include "Graph/graph.cpp"
 #include "HashMaps/hash.cpp"

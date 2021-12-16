@@ -76,19 +76,48 @@ int main()
        cout << m.removeKey("ghi");
     */
 
-    Stack<int> st;
-    st.push(10);
-    st.push(11);
-    st.push(12);
-    st.push(13);
-    st.push(14);
+    /*    Stack<int> st;
+       st.push(10);
+       st.push(11);
+       st.push(12);
+       st.push(13);
+       st.push(14);
 
-    while (!st.isEmpty())
+       while (!st.isEmpty())
+       {
+           cout << st.topElement() << " ";
+           st.pop();
+       }
+       cout << endl; */
+    // Array s;
+    // cout << s.getN();
+    queue<int> x1;
+    x1.enqueue(1);
+    // create a queue of capacity 4
+    queue<string> q(4);
+
+    q.enqueue("a");
+    q.enqueue("b");
+    q.enqueue("c");
+
+    cout << "The front element is " << q.peek() << endl;
+    q.dequeue();
+
+    q.enqueue("d");
+
+    cout << "The queue size is " << q.size() << endl;
+
+    q.dequeue();
+    q.dequeue();
+    q.dequeue();
+
+    if (q.isEmpty())
     {
-        cout << st.topElement() << " ";
-        st.pop();
+        cout << "The queue is empty\n";
     }
-    cout << endl;
-
+    else
+    {
+        cout << "The queue is not empty\n";
+    }
     return 0;
 }
