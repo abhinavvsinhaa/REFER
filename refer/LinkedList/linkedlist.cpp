@@ -4,5 +4,6 @@
 int main()
 {
     LinkedList<int> l;
+
     return 0;
 }
